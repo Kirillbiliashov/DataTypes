@@ -2,8 +2,9 @@
 
 const fn = () =>  {
     console.log(hoisted);
-    var hoisted = 'hoisted string'
+    var hoisted = 'hoisted string';
 };
 
-fn()
+fn();
+
 module.exports = { fn };
